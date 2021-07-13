@@ -58,6 +58,10 @@ body {
   display: grid;
   grid-template-columns: repeat(24, 90px);
   grid-template-rows: repeat(24, 90px);
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    grid-template-columns: repeat(3, 106px);
+  }
 }
 
 .desktop-icon {
