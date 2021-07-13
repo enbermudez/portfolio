@@ -1,10 +1,14 @@
 import TaskBar from './components/TaskBar';
 import DesktopGrid from './components/DesktopGrid';
+import Window from './components/Window';
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <DesktopGrid />
+
+      <Window title="Ventana de prueba" />
+
       <TaskBar/>
     </div>
   );

@@ -1,15 +1,21 @@
 import DesktopIcon from '../DesktopIcon';
 
+const icons = [
+  { text: 'Información', icon: 'user_card' },
+  { text: 'Contacto', icon: 'msn' },
+  { text: 'Certificados', icon: 'certificate' },
+  { text: 'Experiencia', icon: 'script' },
+  { text: 'Proyectos', icon: 'briefcase' },
+  { text: 'Tecnologías', icon: 'console' },
+  { text: 'FAQ', icon: 'help' },
+];
+
 const DesktopGrid = () => {
   return (
     <div className="desktop-grid">
-      <DesktopIcon text="Información" icon="user_card" />
-      <DesktopIcon text="Contacto" icon="msn" />
-      <DesktopIcon text="Certificados" icon="certificate" />
-      <DesktopIcon text="Experiencia" icon="script" />
-      <DesktopIcon text="Proyectos" icon="briefcase" />
-      <DesktopIcon text="Tecnologías" icon="console" />
-      <DesktopIcon text="FAQ" icon="help" />
+      {icons.map(({ text, icon }) => (
+        <DesktopIcon text={text} icon={icon} />
+      ))}
     </div>
   );
 };
