@@ -1,7 +1,11 @@
+import TaskBar from './components/TaskBar';
+import DesktopGrid from './components/DesktopGrid';
+
 function App() {
   return (
-    <div className="App">
-      App
+    <div className="app">
+      <DesktopGrid />
+      <TaskBar/>
     </div>
   );
 }

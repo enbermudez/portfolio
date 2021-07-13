@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'MS Windows';
+  src: url(../fonts/windows-regular.ttf)  format('truetype');
+}
+
+$light-blue: #1085D2;
+$dark-blue: #00007B;
+$blue-gradient: linear-gradient(270deg, $light-blue 0%, $dark-blue 100%);
+
+$light-gray: #ADADAD;
+$dark-gray: #7B7B7B;
+$gray-gradient: linear-gradient(270deg, $dark-gray 0%, $light-gray 100%);
+
+$font-family: 'MS Windows';
+
+$bg-gray: #BFBFBF;
+
+$window-shadow: inset -1px -1px 0px #000000, inset 1px 1px 0px #DBDBDB, inset -2px -2px 0px #808080, inset 2px 2px 0px #FFFFFF;
+$button-shadow: inset -1px -1px 0px #000000, inset 1px 1px 0px #FFFFFF, inset -2px -2px 0px #808080, inset 2px 2px 0px #DBDBDB;
