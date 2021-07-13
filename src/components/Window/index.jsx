@@ -3,7 +3,7 @@ import Draggable from 'react-draggable';
 
 import IconButton from '../IconButton';
 
-const Window = ({ title }) => {
+const Window = ({ title, onClose }) => {
   return (
     <Draggable bounds="body">
       <div className="window box">
@@ -13,7 +13,7 @@ const Window = ({ title }) => {
           <div className="window--icons">
             <IconButton icon="minimize" />
             <IconButton icon="maximize" />
-            <IconButton icon="close" />
+            <IconButton icon="close" onClick={onClose} />
           </div>
         </div>
       </div>
@@ -23,6 +23,7 @@ const Window = ({ title }) => {
 
 Window.propTypes = {
   title: PropTypes.string.isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default Window;
