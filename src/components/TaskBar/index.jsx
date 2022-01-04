@@ -7,11 +7,11 @@ const TaskBar = ({ windows }) => {
     <div className="task-bar">
       <Button text="Inicio" bold icon="windows-0" />
 
-      {windows.map(({ name, active }) => {
+      {windows.map(({ name, active }, idx) => {
         const classes = classNames('task-bar--window', [{ 'task-bar--window-active': active }]);
 
         return (
-          <span className={classes}>{name}</span>
+          <span key={idx} className={classes}>{name}</span>
         )
       })}
     </div>

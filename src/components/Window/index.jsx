@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import Draggable from 'react-draggable';
-
 import IconButton from '../IconButton';
 
 const Window = ({ title, content, onClose }) => {
   return (
-    <Draggable bounds="body">
+    <Draggable handle=".window--title" bounds="body">
       <div className="window">
         <div className="window--title">
           <div className="window--text">{title}</div>
@@ -17,7 +16,7 @@ const Window = ({ title, content, onClose }) => {
           </div>
         </div>
 
-        <div className="window--content">{content}</div>
+        <div className="window--content" dangerouslySetInnerHTML={{ __html: content }}></div>
       </div>
     </Draggable>
   );

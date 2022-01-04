@@ -6,9 +6,7 @@ import 'normalize.css';
 import './scss/styles.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 

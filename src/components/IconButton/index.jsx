@@ -19,7 +19,11 @@ IconButton.propTypes = {
     'maximize',
     'close',
   ]),
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
+};
+
+IconButton.defaultProps = {
+  onClick: () => {},
 };
 
 export default IconButton;

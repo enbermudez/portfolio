@@ -99,7 +99,7 @@ body {
   @for $i from 1 to 7 {
     @media only screen and (min-device-width : 720px) {
       &:nth-of-type(#{$i}) {
-        grid-column: randomNum(1, 7); grid-row: randomNum(1, 5);
+        grid-column: randomNum(1, 12); grid-row: randomNum(1, 8);
       }
     }
   }
