@@ -12,13 +12,14 @@ body {
 .app {
   position: relative;
   width: 100vw;
-  height: 100Vh;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 // Task Bar
 
 .task-bar {
-  width: 100vw;
+  width: 100%;
   height: 45px;
   background-color: $bg-gray;
   position: absolute;
@@ -157,6 +158,13 @@ body {
     padding: 15px;
     font-size: 20px;
     white-space: pre-line;
+  }
+}
+
+@media only screen and (max-device-width : 720px) {
+  .window {
+    width: 300px;
+    height: 500px;
   }
 }
 

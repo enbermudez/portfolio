@@ -26,7 +26,7 @@ module.exports = [
   {
     id: 5,
     name: 'FAQ',
-    content: '¿Por qué Windows 98?\n\n    - ¿Por qué no?\n\n¿Por qué no puedo minimizar/maximizar?\n\n    - Algún día agregaré esa funcionalidad.\n\n¿Qué utilizaste para crear esto?\n\n    - Javascript, Node, React, Scss y mucha paciencia.\n\n¿Puedes hackear un facebook por mi?\n\n    - Fuera de aquí.',
+    content: '¿Por qué Windows 98?\n\n    - ¿Por qué no?\n\nEsto no anda muy bien en mi teléfono.\n\n    - Sí, bueno. ¿Quién tiene hambre?\n\n¿Qué utilizaste para crear esto?\n\n    - Javascript, Node, React, Scss y mucha paciencia.\n\n¿Puedes hackear un facebook por mi?\n\n    - Fuera de aquí.',
     icon: 'help',
   },
 ];
