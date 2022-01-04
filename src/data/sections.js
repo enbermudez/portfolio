@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     name: 'Información',
-    content: `Importante:\n\nBienvenido al emocionante nuevo mundo de Ventana 98, donde tu ordenador de escritorio se encuentra con la InTeRnEt!! Siéntate y relájate mientras tomas un breve recorrido a través de las opciones que te ofrece esta pantalla. Si quieres explorar alguna opción, solo haz clic en ella.\n\nDesarrollador:\n\n    Enrique Bermúdez\n    25 Años\n    Ingeniero en Computación\n    Santa Fe, Argentina`,
+    content: `Importante:\n\nBienvenido al emocionante nuevo mundo de Ventana 98, donde tu ordenador de escritorio se encuentra con la InTeRnEt!! Siéntate y relájate mientras tomas un breve recorrido a través de las opciones que te ofrece esta pantalla.\n\nSi quieres explorar alguna opción, solo haz clic en ella.\n\nEste portafolios va terriblemente mal en teléfonos. Pero, hey, ¿Alguna vez usaste windows en tu teléfono? Exacto.\n\nDesarrollador:\n\n    Enrique Bermúdez\n    25 Años\n    Ingeniero en Computación\n    Santa Fe, Argentina`,
     icon: 'user_card',
   },
   {
